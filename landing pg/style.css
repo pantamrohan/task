@@ -1,0 +1,227 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+@font-face {
+    font-family: "allroundgothic" ;
+    src: url(./font/Fontspring-DEMO-allroundgothic-bold.otf);
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.header {
+    height: 10vh;
+    background: #fff;
+    padding: 5vh 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+    gap:1vw;
+}
+.heading{
+    font-family: "allroundgothic", serif;
+    font-size: 5vh;
+    font-weight: 100;
+    
+}
+#logo{
+    width: 2.6vw; 
+    height: auto;
+}
+
+.infosec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    gap: 20px;
+    background: rgb(243, 243, 243);
+
+}
+.info-l{
+    height: 100%;
+    overflow: hidden;
+    width: 9%;
+}
+.info-r{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+.info-c{
+
+    height: 100%;
+    padding: 2%;
+}
+.info-c h1{
+    font-size: 5vh;    
+    margin-bottom: 2%;
+    font-weight: 800;
+    font-style: normal;
+}
+.info-c p{
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.info-l img, .info-r img {
+    object-fit: contain;
+    width: auto;
+    height: 100%; 
+    display: block;
+}
+.info-r img{
+    object-fit: cover;
+}
+.highlight{
+    color: rgb(255, 184, 0);
+}
+
+.center-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh;
+}
+
+.center-text {
+    font-family: "Poppins", sans-serif;
+    padding-left: 5vw ;
+    width: 50%;
+    
+}
+.center-text h2{
+    font-size: 21px;
+    margin-bottom: 10px ;
+}
+
+.center-text p{
+    font-size: 19px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.general-text{
+    font-weight: 300;
+}
+.general-text ul{
+    padding-top: 2vh ;
+    padding-left: 2vw;
+}
+
+
+
+
+.center-form {
+    border: 1px solid #ccc;
+    width: 40%;
+    padding: 1.5vw;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+h3{
+    padding-left: 1.5vw;
+    font-size: 4vh;
+}
+form input, form select {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sideBySide{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    font-weight: 300;   
+    width: 100%;
+    gap: 15px;
+}
+.cb{
+    font-size: 2.2vh ;
+}
+.text{
+    width: 150%;
+    margin-bottom: 10px;
+}
+.cb > input{
+    width: 10%;
+    margin-top: 8px;
+    margin-right: -10px;
+    
+}
+
+button {
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 40%;
+    height: 100%;
+}
+
+button:hover {
+    background: darkorange;
+    border-radius: 5px;
+}
+
+
+.imgofMan {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    width: 10vw;
+}
+
+.manImg {
+    position: absolute;
+    bottom: 0px; 
+    left: 200%; 
+    transform: translateX(-50%); 
+    width: 30vw; 
+    height: auto;
+    z-index: 10;
+}
+
+
+/* Footer */
+.footer {
+    background: url(./images/footerimg.jpg);
+    opacity: 80%;
+    background-position: 40%;
+    background-size: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px; 
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+.footer h2{
+font-weight: 600;
+font-size: 4vh;
+margin-bottom: 1vh;
+}
+.footer p{
+    font-size: 2.5vh;
+    line-height: 3vh;
+    width: 100%;
+}
